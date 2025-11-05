@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Descodificación Transpersonal</title>
+    <meta name="description" content="Contáctanos para más información sobre nuestros cursos de biodescodificación. Estamos aquí para ayudarte.">
+    <meta name="keywords" content="contacto biodescodificación, consultas cursos, información formación">
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="hero">
+        <h1>Contacto</h1>
+        <p>¿Tienes dudas? Escríbenos y te responderemos a la brevedad</p>
+    </section>
+
+    <section class="container">
+        <div class="contact-grid">
+            <!-- Información de Contacto -->
+            <div class="contact-info">
+                <h2 style="color: #ff6b35; margin-bottom: 1.5rem;">Información de Contacto</h2>
+                <div id="contact-data">
+                    <!-- Cargado dinámicamente desde la API -->
+                </div>
+
+                <!-- Horarios -->
+                <div style="margin-top: 2rem; padding: 1.5rem; background: white; border-radius: 15px; box-shadow: 0 3px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 1rem;">🕐 Horarios de Atención</h3>
+                    <div style="line-height: 1.8;">
+                        <p><strong>Lunes a Viernes:</strong> 9:00 - 18:00 hs</p>
+                        <p><strong>Sábados:</strong> 10:00 - 14:00 hs</p>
+                        <p><strong>Domingos:</strong> Cerrado</p>
+                    </div>
+                </div>
+
+                <!-- Ubicación -->
+                <div style="margin-top: 2rem;">
+                    <h3 style="color: #ff6b35; margin-bottom: 1rem;">📍 Nuestra Ubicación</h3>
+                    <div style="width: 100%; height: 200px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #666;">
+                        <p>Alta Gracia, Córdoba, Argentina</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Formulario de Contacto -->
+            <div class="contact-form">
+                <h2 style="color: #ff6b35; margin-bottom: 1.5rem;">Envíanos un Mensaje</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+54 9 3541597936">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto">Motivo de Consulta *</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="cursos">Información sobre cursos</option>
+                            <option value="presencial">Consulta presencial</option>
+                            <option value="jornadas">Jornadas y eventos</option>
+                            <option value="certificacion">Certificación</option>
+                            <option value="colaboracion">Posibilidad de colaboración</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" required placeholder="Cuéntanos en qué podemos ayudarte..." rows="6"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    
+                    <div id="form-message" style="display: none; margin-top: 1rem; padding: 1rem; border-radius: 8px;"></div>
+                    
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666; text-align: center;">
+                        * Campos obligatorios<br>
+                        Te responderemos en menos de 24 horas
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 15px; box-shadow: 0 3px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">¿Cuánto tiempo tarda la respuesta?</h3>
+                    <p>Normalmente respondemos en menos de 24 horas hábiles. Si es urgente, puedes contactarnos por WhatsApp.</p>
+                </div>
+                
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 15px; box-shadow: 0 3px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">¿Ofrecen consultas presenciales?</h3>
+                    <p>Sí, tenemos consultorio en Alta Gracia, Córdoba. También ofrecemos sesiones online para personas de otras localidades.</p>
+                </div>
+                
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 15px; box-shadow: 0 3px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 0.5rem;">¿Los cursos tienen certificación?</h3>
+                    <p>Todos nuestros cursos incluyen certificación oficial avalada por Descodificación Transpersonal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="/assets/js/components.js"></script>
+    <script src="/assets/js/contact.js"></script>
+</body>
+</html>

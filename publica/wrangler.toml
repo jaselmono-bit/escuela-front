@@ -1,0 +1,9 @@
+name = "ancient-lab-136a"
+compatibility_date = "2023-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+API_BASE = "https://script.google.com/macros/s/AKfycbwtp9vWaIRNL2UP7zj1bNy-kwntJtTV7GnQKX9w1bduPaA5KBw-WGPPQPr-AF9ndljk/exec"
+
+[env.production]
+workers_dev = true

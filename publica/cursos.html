@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos los Cursos | Descodificación Transpersonal</title>
+    <meta name="description" content="Catálogo completo de cursos de biodescodificación. Formación profesional, talleres especializados y cursos gratuitos.">
+    <meta name="keywords" content="cursos biodescodificación, formación online, talleres emocionales, certificación biodescodificación">
+    
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+</head>
+<body>
+    <div id="header"></div>
+
+    <section class="hero">
+        <h1>Nuestros Cursos</h1>
+        <p>Descubre toda nuestra oferta formativa en biodescodificación y sanación emocional</p>
+    </section>
+
+    <section class="container">
+        <!-- Filtros -->
+        <div class="filters" style="margin-bottom: 3rem; text-align: center;">
+            <button class="filter-btn active" data-filter="all">Todos los Cursos</button>
+            <button class="filter-btn" data-filter="formacion">Formación Completa</button>
+            <button class="filter-btn" data-filter="talleres">Talleres</button>
+            <button class="filter-btn" data-filter="gratis">Gratuitos</button>
+        </div>
+
+        <!-- Todos los Cursos -->
+        <div id="all-courses" class="courses-grid">
+            <!-- Cargado dinámicamente desde la API -->
+        </div>
+
+        <!-- Mensaje cuando no hay cursos -->
+        <div id="no-courses" style="display: none; text-align: center; padding: 3rem;">
+            <h3 style="color: #666; margin-bottom: 1rem;">No hay cursos disponibles en esta categoría</h3>
+            <p>Pronto agregaremos nuevos cursos. ¡Mantente atento!</p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="benefits">
+        <div class="container" style="text-align: center;">
+            <h2 class="section-title">¿No Encuentras lo que Buscas?</h2>
+            <p class="section-subtitle">
+                Contáctanos y te ayudaremos a encontrar el curso perfecto para tus objetivos
+            </p>
+            <a href="/contacto.html" class="cta-button" style="margin-top: 2rem;">Contactar Ahora</a>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="/assets/js/components.js"></script>
+    <script src="/assets/js/courses.js"></script>
+</body>
+</html>
